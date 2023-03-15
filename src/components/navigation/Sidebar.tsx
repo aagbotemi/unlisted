@@ -3,7 +3,7 @@ import { Dashboard, Home, Logo, Logout, Project, Reporting, SearchIcon, Settings
 const Sidebar = () => {
 
   return (
-    <div className="hidden lg:block bg-[#FFFFFF] w-[25%] xl:w-[20%] border-r border-[#EAECF0] py-[32px]">
+    <div className="hidden lg:block bg-[#FFFFFF] w-[24%] xl:w-[18%] border-r border-[#EAECF0] py-[32px]">
       <div className="">
         <div className="px-[16px]">
           <div className="flex items-center px-2">
