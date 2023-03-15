@@ -39,7 +39,7 @@ const Sidebar = () => {
                   Dashboard
                 </p></div>
 
-              <div className="bg-[#F5F5F5] px-4 py-2 rounded-[24px]">10</div>
+              <div className="bg-[#F5F5F5] px-3 py-1 rounded-[24px]">10</div>
             </div>
             <div
               className={`flex items-center mt-3 text-[#27353F] pt-1 px-2`}
@@ -91,7 +91,7 @@ const Sidebar = () => {
             className={`flex items-center mt-3 text-[#101828] px-2 bg-[#F9FAFB] rounded-[6px] font-semibold py-2`}
           >
             <Settings className="w-[24px]" />
-            <p className="ml-3 text-base text-[#344054] font-medium">
+            <p className="ml-3 text-base text-[#101828] font-medium">
               Settings
             </p>
           </div>
