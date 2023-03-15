@@ -1,0 +1,21 @@
+export {
+    Logo,
+    SearchIcon,
+    Dashboard,
+    Home,
+    Logout,
+    Project,
+    Reporting,
+    Settings,
+    Support,
+    Task,
+    Users,
+    Menu,
+    Email,
+    Mastercard,
+    Plus,
+    Visa,
+    Download,
+    ArrowDown,
+    Check
+} from './icons'
