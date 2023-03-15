@@ -94,7 +94,7 @@ const EnhancedTableHead = (props: any) => {
                             color="secondary"
                         />
                         <h1 className="capitalize font-medium text-sm leading-[18px] text-[#697278] whitespace-nowrap">
-                            Invoice 
+                            Invoice
                         </h1>
 
                         <span className="ml-2">
@@ -149,6 +149,7 @@ const EnhancedTableHead = (props: any) => {
 };
 
 import NorthIcon from '@mui/icons-material/North';
+import { StatusBadge } from '../core';
 
 const BillingTable = () => {
     // SELECTING
@@ -279,10 +280,7 @@ const BillingTable = () => {
                                             px: "12px",
                                         }}
                                     >
-                                        <div className="flex items-center px-[8px] py-[4px] bg-[#ECFDF3] rounded-2xl">
-                                            <Check /> <span className="text-[#027A48] text-[12px] leading-[18px] font-medium ml-1">Paid</span>
-
-                                        </div>
+                                        <StatusBadge />
                                     </TableCell>
                                     <TableCell
                                         sx={{

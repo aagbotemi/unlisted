@@ -6,7 +6,7 @@ interface DashboardProps {
 
 const DashboardLayout = ({ children }: DashboardProps) => {
   return (
-    <div className="flex w-full min-h-screen layout__main">
+    <div className="flex w-full h-screen layout__main">
       <Sidebar />
       <MainPanel>{children}</MainPanel>
     </div>

@@ -3,7 +3,7 @@ import { Dashboard, Home, Logo, Logout, Project, Reporting, SearchIcon, Settings
 const Sidebar = () => {
 
   return (
-    <div className="hidden lg:block bg-[#FFFFFF] w-[25%] xl:w-[18%] border-r border-[#EAECF0] py-[32px]">
+    <div className="hidden lg:block bg-[#FFFFFF] w-[25%] xl:w-[20%] border-r border-[#EAECF0] py-[32px]">
       <div className="">
         <div className="px-[16px]">
           <div className="flex items-center px-2">
@@ -97,7 +97,6 @@ const Sidebar = () => {
             </p>
           </div>
 
-
           <div className="mt-5 p-3 rounded-lg bg-[#F5F5F5]">
 
             <div className="text-[#101828] text-base"> New features available!</div>
@@ -115,7 +114,7 @@ const Sidebar = () => {
           </div>
 
           <div className="h-[1px] bg-#EAECF0 my-5"></div>
-          <div className="flex justify-between">
+          <div className="flex justify-between pb-6">
             <div className="flex items-center">
               <img src="/olivia.png" alt="user" />
               <div className="ml-3">
