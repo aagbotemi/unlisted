@@ -37,9 +37,10 @@ const Sidebar = () => {
               <div className="flex"><Dashboard className="w-[24px]" />
                 <p className="ml-3 text-base text-[#344054] font-medium">
                   Dashboard
-                </p></div>
+                </p>
+              </div>
 
-              <div className="bg-[#F5F5F5] px-3 py-1 rounded-[24px]">10</div>
+              <div className="bg-[#F5F5F5] text-[#344054] text-base font-medium px-3 py-1 rounded-[24px]">10</div>
             </div>
             <div
               className={`flex items-center mt-3 text-[#27353F] pt-1 px-2`}

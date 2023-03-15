@@ -15,7 +15,7 @@ const SettingsHeader = () => {
           <SettingsHeaderButton text="Password" className="border-r border-[#D0D5DD]" />
           <SettingsHeaderButton text="Team" className="border-r border-[#D0D5DD]" />
           <SettingsHeaderButton text="Plan" className="border-r border-[#D0D5DD]" />
-          <SettingsHeaderButton text="Billing" className="border-r border-[#D0D5DD]" />
+          <SettingsHeaderButton text="Billing" className="text-[#1D2939] bg-[#F9FAFB] border-r border-[#D0D5DD]" />
           <SettingsHeaderButton text="Notifications" className="border-r border-[#D0D5DD]" />
           <SettingsHeaderButton text="Integration" className="border-r border-[#D0D5DD]" />
           <SettingsHeaderButton text="API" />
