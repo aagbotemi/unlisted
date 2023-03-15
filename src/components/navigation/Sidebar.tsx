@@ -15,8 +15,12 @@ const Sidebar = () => {
           </div>
 
 
-          <div className="mt-[24px] pl-2 pr-5 relative">
-            <input type="text" placeholder="Search" className="text-[#667085] max-w-[12rem] pl-10 py-2 border border-gray-300 rounded-lg outline-none" />
+          <div className="mt-[24px] px-2 relative">
+            <input
+              type="text"
+              placeholder="Search"
+              className="text-[#667085] w-full pl-10 py-2 border border-gray-300 rounded-lg outline-none"
+            />
             <div className="absolute top-[10px] left-5">
               <SearchIcon />
             </div>
