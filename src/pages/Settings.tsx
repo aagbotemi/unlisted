@@ -5,10 +5,12 @@ import { BillingHistory, SettingsHeader, SettingsPaymentMethod } from '../sectio
 const Settings = () => {
     return (
         <DashboardLayout>
-            <div className='p-8 bg-[#F9FAFB]'>
+            <div className="py-8 bg-[#F9FAFB]">
                 <SettingsHeader />
+            <div className='px-4 md:px-8'>
                 <SettingsPaymentMethod />
                 <BillingHistory />
+            </div>
             </div>
         </DashboardLayout>
     )
